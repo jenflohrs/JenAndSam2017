@@ -2,7 +2,7 @@ h1 {
  	color: #00B1B5;
  	font-size: 40px;
  	font-family: "Arial";
- 	padding: 10px 100px 10px 100px;
+ 	padding: 10px 100px 0 100px;
 }
 
 h2 {
@@ -12,3 +12,8 @@ h2 {
 	padding: 10px 100px 10px 100px;
 
 }
+.container {
+ 	padding: 10px 100px 10px 100px;
+	margin-right: auto;
+	margin-left: auto;
+

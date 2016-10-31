@@ -1,11 +1,14 @@
 h1 {
-  color: #00B1B5;
-  font-size: 40px;
-  font-family: "Arial";
+ 	color: #00B1B5;
+ 	font-size: 40px;
+ 	font-family: "Arial";
+ 	padding: 10px 100px 10px 100px;
 }
 
 h2 {
-	color:#444;
+	color: #222;
 	font-size: 14px;
 	font-family: "Arial";
+	padding: 10px 100px 10px 100px;
+
 }

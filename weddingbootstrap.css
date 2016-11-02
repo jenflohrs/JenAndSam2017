@@ -15,8 +15,10 @@ body {
 }
 
 .jumbo-noods {
-    height:182px;
+    height:400px;
     background-image: url("../img/noods.gif");
+    background-repeat: none;
+    background-position: center;
   }
   .noods{
     font-family: Arial;

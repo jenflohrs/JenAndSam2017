@@ -15,18 +15,9 @@ body {
 }
 
 .jumbo-noods {
+    height:182px;
     background-image: url("../img/noods.gif");
-    background-repeat: no-repeat;
-}
-
-.jumbo-wed {
- margin: 0;
- background-image: url('../img/EngagementPic.jpg');
- background-size: 1440px 800px;
- background-repeat: no-repeat;
- display: compact;
- font: 13px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
- }
+  }
 
  .container-welcome {
   padding: 10px 100px 10px 100px;

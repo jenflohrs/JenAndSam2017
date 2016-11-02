@@ -18,6 +18,13 @@ body {
     height:182px;
     background-image: url("../img/noods.gif");
   }
+  .noods{
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+  }
 
  .container-welcome {
   padding: 10px 100px 10px 100px;

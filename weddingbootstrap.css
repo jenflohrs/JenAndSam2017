@@ -31,7 +31,7 @@ body {
   }
 
  .container-welcome {
-    width: 400px
+    width: 400px;
     margin-right: auto;
     margin-left: auto;
     background-image: url("../img/EngagementPic400px.JPG");

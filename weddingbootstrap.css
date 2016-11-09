@@ -22,7 +22,7 @@ body {
     background-size: 100%;
   }
   .noods{
-    font-family: Arial;
+    font-family: 'Lato' Arial;
     font-size: 60px;
     font-weight: bold;
     color: #fff;
@@ -5247,7 +5247,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: normal;

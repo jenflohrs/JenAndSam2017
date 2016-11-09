@@ -39,7 +39,14 @@ body {
     background-image: url("../img/EngagementPic400px.JPG");
     background-repeat: no-repeat;
     background-position: center;
-}
+  }
+  .jumbotron {
+    font-size: 60px;
+    color: #fff;
+    background-color: red;
+
+
+  }
 /* general */
 
 body {

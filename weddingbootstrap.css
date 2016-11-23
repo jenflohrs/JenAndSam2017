@@ -1,5 +1,9 @@
-
-
+/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
@@ -10,37 +14,6 @@ body {
   font-size: 16px;
   color: #263C4C;
 }
-
-.flex {
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  flex-flow: row wrap;
-  justify-content: center;
-}
-
-.flex h2 {
-  font-size: 32px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  padding: 6px 0;
-  margin: 40px auto 20px auto;
-  border-top-style: solid;
-  border-top-width: 4px;
-  border-bottom-style: solid;
-  border-bottom-width: 4px;
-}
-
-@media (max-width: 480px) {
-  .flex h2 {
-      font-size: 28px;
-}
-
 
 /* header */
 
@@ -107,3 +80,32 @@ body {
 
 /* general */
 
+.flex {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.flex h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 6px 0;
+  margin: 40px auto 20px auto;
+  border-top-style: solid;
+  border-top-width: 4px;
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+}
+@media (max-width: 480px) {
+  .flex h2 {
+      font-size: 28px;
+  }
+}

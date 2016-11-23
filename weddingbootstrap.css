@@ -22,7 +22,7 @@ body {
     background-size: 100%;
   }
   .noods{
-    font-family: 'Lato' Arial;
+    font-family: 'Sanchez' Arial;
     font-size: 60px;
     font-weight: bold;
     color: #fff;
@@ -43,21 +43,20 @@ body {
   .jumbotron {
     font-size: 60px;
     color: #fff;
-    background-color: red;
-
-
+    background-color: #00B5A6;
   }
 /* general */
 
 body {
     -webkit-font-smoothing: antialiased;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
 }
 
 h1, h2, h3 {
     margin: 0;
     font-weight: 400;
+    font-family: 'Sanchez', Arial;
 }
 
 .flex {

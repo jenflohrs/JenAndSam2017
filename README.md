@@ -1,2 +1,2 @@
 # JenAndSam2017
-Wedding website
+Our wedding website

@@ -1,0 +1,90 @@
+/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  color: #BD10E0;
+}
+/* coming soon details */
+.jumbo-noods {
+    height:700px;
+    background-image: url("../img/noods.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+  }
+  .noods{
+    font-family: 'Sanchez' Arial;
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding-top: 220px;
+    margin-bottom: 50px;
+  }
+
+ .container-welcome {
+    width: 400px;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url("../img/EngagementPic400px.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .jumbotron {
+    font-size: 60px;
+    color: #fff;
+    background-color: #00B5A6;
+  }
+/* general */
+
+body {
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    font-weight: 400;
+    font-family: 'Sanchez', Arial;
+}
+
+.flex {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.flex h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 6px 0;
+    margin: 40px auto 20px auto;
+    border-top-style: solid;
+    border-top-width: 4px;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+}
+@media (max-width: 480px) {
+    .flex h2 {
+        font-size: 28px;
+    }
+}

@@ -1,0 +1,80 @@
+
+body {
+  font-family: 'Open Sans', Arial;
+  font-size: 16px;
+  color: #263C4C;
+}
+
+header {
+    background: #8EDED7;
+    background-size: cover;
+    text-align: center;
+}
+
+.title {
+	font-size: 68px;
+	font-family: 'Abril Fatface', serif;
+	color: #263C4C;
+    display: block;
+    font-size: 72px;
+    padding: 14px 12px 10px 12px;
+    margin: 2px 0px 0px 10px;
+  }
+
+.header-date {
+	font-family: 'Open Sans', Arial;
+	text-transform: uppercase;
+	font-size: 24px;
+	letter-spacing: 2px;
+}
+
+.header-location{
+	font-family: 'Open Sans', Arial;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.header-smirk{
+	font-family: 'Open Sans', Arial;
+	font-style: italic;
+	font-size: 12px;
+	padding-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+    header {
+        background: #4842C5;
+    }
+    header body {
+    	color: #fff;
+    }
+    .title {
+        font-size: 32px;
+        color: #fff;
+        padding: 30px 16px 10px 16px;
+    }
+
+    .header-date {
+        font-size: 16px;
+        color: #fff;
+    }
+
+    .header-location {
+    	color: #fff;
+        font-size: 12px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    .header-smirk {
+    	color: #fff;
+        font-size: 10px;
+        padding-bottom: 20px;
+    }
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+

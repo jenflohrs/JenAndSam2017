@@ -1,37 +1,44 @@
-/*!
- * Bootstrap v3.3.7 (http://getbootstrap.com)
- * Copyright 2011-2016 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-html {
-  -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
-}
 
 body {
   font-family: 'Open Sans', Arial;
   font-size: 16px;
   color: #263C4C;
+  clear: all;
 }
 
 /* header */
 
 
-#header {
-  color: #263C4C;
-  font-family: 'Abril Fatface', cursive;
-  text-align: center;
-  background-size: cover;
-  background-color: #8EDED7;
-  padding: 10px 0px 30px 30px;
+header {
+    color: #263C4C;
+    font-family: 'Abril Fatface', serif;
+    text-align: center;
+    background: #8EDED7;
+    background-size: cover;
 }
 
+@media (max-width: 767px) {
+    header {
+        background: #4842C5;
+    }
+}
 
-.header-save {
+header h1 {
+    display: block;
     font-size: 72px;
     padding: 14px 12px 10px 12px;
+    margin: 2px 0px 0px 10px;
+  }
+
+@media (max-width: 767px) {
+    header h1 {
+        font-size: 32px;
+        color: #F56400;
+        padding: 30px 16px 10px 16px;
+    }
 }
+
+
 
 .header-date {
     font-family: 'Open Sans', Arial;
@@ -50,36 +57,96 @@ body {
   font-family: 'Open Sans', Arial;
   font-style: italic;
   font-size: 12px;
+  padding-bottom: 30px;
 }
 
+@media (max-width: 767px) {
+    .header-date {
+        font-size: 24px;
+        padding-bottom: 12px;
+    }
+    .header-location {
+        font-size: 12px;
+    }
+    .header-smirk {
+        font-size: 10px;
+        padding-bottom: 20px;
+    }
+}
 
 
 /* details */
 .jumbo-noods {
-  height:490px;
-  background-image: url("../img/noods.gif");
+  width:100%;
+  height: auto;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background: #26209A url('../img/noods.gif') 50% 50%;
+  background-size: cover;
+  display: inline-block;
 }
 
 .soon {
   font-family: 'Abril Fatface', cursive;
   font-size: 60px;
-  font-weight: bold;
   color: #fff;
   text-align: center;
-  padding-top: 220px;
+  padding-top: 400px;
+  padding-bottom: 220px;
 }
 
-.redirect {
-  font-size: 32px;
+@media (max-width: 767px) {
+    .jumbo-noods {
+      background: #FFFFFF url('../img/noods.gif') no-repeat 48% 10%;
+    }
+    .soon {
+      font-size: 18px;
+      padding-top: 10px;
+    }
+  }
+
+/*redirect section*/
+#redirect {
   text-align: center;
-  padding: 30px 50px 0px 50px;
+  padding-top: 30px;
+  padding-bottom: 30px
 }
 
-/* general */
+#redirect p {
+  font-size: 24px
 
+}
+
+@media (max-width: 767px) {
+    #redirect p {
+      font-size: 16px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+/* general 
 .flex {
   margin: 0 auto;
   display: -webkit-box;
@@ -94,18 +161,12 @@ body {
 
 .flex h2 {
   font-size: 32px;
-  font-weight: 700;
-  text-transform: uppercase;
   letter-spacing: 2px;
-  padding: 6px 0;
-  margin: 40px auto 20px auto;
-  border-top-style: solid;
-  border-top-width: 4px;
-  border-bottom-style: solid;
-  border-bottom-width: 4px;
+
 }
 @media (max-width: 480px) {
   .flex h2 {
       font-size: 28px;
   }
 }
+*/

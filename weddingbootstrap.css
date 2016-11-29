@@ -19,7 +19,7 @@ header {
 
 @media (max-width: 767px) {
     header {
-        background: #4842C5;
+        background: #8EDED7;
     }
 }
 
@@ -33,7 +33,7 @@ header h1 {
 @media (max-width: 767px) {
     header h1 {
         font-size: 32px;
-        color: #F56400;
+        color: #263C4C;
         padding: 30px 16px 10px 16px;
     }
 }
@@ -101,15 +101,14 @@ header h1 {
     }
     .soon {
       font-size: 18px;
-      padding-top: 10px;
+      padding-top: 20px;
+      padding-bottom: 150px;
     }
   }
 
 /*redirect section*/
 #redirect {
   text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px
 }
 
 #redirect p {

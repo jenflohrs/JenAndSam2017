@@ -78,3 +78,58 @@ img {
     height: auto;
 }
 
+.row {
+    margin: 30px 24px;
+}
+
+/*Details Section */
+
+#details {
+    color: #F56400;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+#details h2 {
+    font-weight: 300;
+    font-size: 36px;
+    margin: 4px 0 8px 0;
+}
+
+#details h3 {
+    font-weight: 300;
+    font-size: 24px;
+    margin: 4px 0 8px 0;
+}
+
+#details h4 {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 4px 0 8px 0;
+}
+
+#details a {
+    color: #BD0FE1;
+    text-decoration: underline;
+}
+
+.bar-name {
+    font-weight: bold;
+    font-size: 18px; 
+}
+
+.details-bold {
+    font-weight: 400;
+}
+
+#details ul {
+    list-style-type: none;
+    margin: 0 0 24px 0;
+    padding: 0;
+}
+
+/*Hotel Section*/
+#hotel 
+
+
+

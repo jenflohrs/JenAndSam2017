@@ -85,8 +85,8 @@ img {
 /*Details Section */
 
 #details {
-    color: #F56400;
-    text-align: center;
+    color: #333;
+    text-align: left;
     margin-bottom: 18px;
 }
 
@@ -109,7 +109,6 @@ img {
 }
 
 #details a {
-    color: #BD0FE1;
     text-decoration: underline;
 }
 
@@ -129,7 +128,35 @@ img {
 }
 
 /*Hotel Section*/
-#hotel 
+#hotel {
+}
 
+#hotel h2{
+    font-weight: 300;
+    font-size: 36px;
+    margin: 4px 0 8px 0;
+}
+
+#hotel h3 {
+    font-weight: 300;
+    font-size: 24px;
+    margin: 4px 0 8px 0;
+}
+
+#hotel  h4 {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 4px 0 8px 0;
+}
+
+#hotel ul {
+    font-weight: 300;
+    font-size: 14px;
+    margin: 4px 0 4px 0;
+}
+
+#hotel a {
+    text-decoration: underline;
+}
 
 

@@ -1,109 +1,212 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet" type="text/css">
-    <title>Jen and Sam's NEW WED</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">    
-	<link href="NEWwedding.css" rel="stylesheet" type="text/css">
-    <meta charset="utf-8">
-</head>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>NEW WED</title>
+
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<!--Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Bitter:400,700|Chivo:300,400,400i,700|Lato:300,400,700,900|Libre+Franklin:300,400,600|Open+Sans:300,400,600" rel="stylesheet">
+
+		<link href="NEWwedding.css" rel="stylesheet" type="text/css">
+	</head>
+
 <body>
-	<header>
-		<div class="title">It's a date!</div>
-		<div class="header-date">September 16th, 2017</div>
-		<div class="header-location">Brooklyn, Wisconsin</div>
-		<div class="header-smirk">No seriously, Brooklyn, Wisconsin! Too perfect, huh?</div>
-	</header>
-	<img src="/img/V1_STD_web.png">
-	<div id="details">
+
+<header>
+	<div class="container-fluid">
 		<div class="row">
-			<div class="flex">
-				<h2>The Weekend Itinerary</h2>
+			<div class="col-md-8 col-md-offset-2">
+				<div class="title">It's a date!</div>
+				<div class="date pb-xs-2">Join us on September 16, 2017 as we celebrate our wedding in Brooklyn, Wisconsin.</div> 
+				<div class="header-smirk">No seriously, Brooklyn, Wisconsin! Too perfect, huh?</div>
 			</div>
 		</div>
-		<div class="row">
+	</div>
+</header>
+
+<div class="welcome">
+	<h2 class="names pb-xs-6"></h2>
+</div>
+
+<div class="details container-fluid">
+	<div class="row">
+    	<div class="col-md-6 col-md-offset-3">
+			<h2>The Weekend Itinerary</h2>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3 pb-xs-6">
 			<h3>Friday</h3>
-			<p>Please join us on Friday evening at The Bar Name for a welcome happy hour from 6-8pm. We'll have some snacks and a couple drinks specials ready for ya. :)</p>
+			<p>Join us Friday evening at The Bar Name for a welcome happy hour from 6-8pm. We'll have some snacks and a couple drinks specials ready for ya. :)</p>	
 			<h4>The Bar Name <br> 123 Main St</h4>
-			<p><a href="#" target="new">Get directions</a></p>
+			<p><a href="http://www.newglarusbrewing.com/" target="new">Get directions</a></p>
 		</div>
-		<div class="row">
+	</div>
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3 pb-xs-4">
 			<h3>Saturday</h3>
-			<p>Please join us at <a href="www.google.com">O'Brien Barn</a> in Brooklyn, Wisconsin at 4 PM for our ceremony followed by cocktails with the cows and dinner and dancing in the converted hay loft.</p>
-			<ul>
-                <li><span class="details-bold">Dress:</span> Festive attire for the lawn and converted hay loft (<a href="http://www.wunderground.com/cgi-bin/findweather/hdfForecast?query=14467">check the weather</a>).</li>
-                <li><span class="details-bold">Suggestion for him:</span> Sport coat and jazzy tie.</li>
-                <li><span class="details-bold">Suggestions for her:</span> A fun dress or elegant pants. Flats or wedges strongly suggested.</li>
-             </ul>
-        </div>
-        <div class="row">
-        	<h4>Transportation</h4>
-			<p>We encourage guests to take the free shuttle to and from the barn or use a taxi service like <a href="www.google.com">Uber</a> or <a href="www.google.com">Lyft</a>. There will also be some parking available at the barn for guests that prefer.</p>
-			<p>Additional shuttle departure details to come</p>
+			<p class="pb-xs-2">Please join us at <a href="www.google.com">O'Brien Barn</a> in Brooklyn, Wisconsin at 4 PM for our ceremony followed by cocktails with the cows and dinner and dancing in the barn.</p>
+			<img src="/img/barn1.jpg" alt="obrienbarn">
 		</div>
-		<div class="row">
+	</div>	
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3 pb-xs-4">
+        	<p class=" pb-xs-2 details-wear"><span class="details-bold">What to wear:</span><br>Dressy casual for mingling on the lawn and dancing in the barn. The ceremony will be held indoors, but its still a good idea to (<a href="http://www.wunderground.com/cgi-bin/findweather/hdfForecast?query=14467">check the weather</a>).</p>
+		    <div class="row pb-xs-6">
+		        <div class="col-md-6">
+		        	<p class="details-wear"><span class="details-bold">Suggestions for him:</span><br>Sport coat and fun tie.</p>
+		        </div>
+	        	<div class="col-md-6">
+					<p class="details-wear"><span class="details-bold">Suggestions for her:</span><br>A cheery dress or chic slacks. Flats or wedges strongly suggested.</p>
+				</div>
+	        </div>
+	        <img src="/img/barn2.png" alt="obrienbarn">
+		</div>
+	</div>
+	<div class="row">
+	    <div class="col-md-6 col-md-offset-3 pb-xs-6">
+	    	<h4>Transportation to the barn</h4>
+			<p>We encourage guests to take the free shuttle to and from the barn or use a taxi service like <a href="www.google.com">Uber</a> or <a href="www.google.com">Lyft</a>. There will also be some parking available at the barn for guests that prefer.</p>
+			<p class="italic">Additional shuttle departure details to come</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3 pb-xs-6">
 			<h3>Sunday</h3>
 			<p>We'll be at the Doubletree enjoying brunch from 9 A.M. until noon. We'd love to see you one last time before this wonderful weekend must come to an end.</p>
 		</div>
 	</div>
-	<div id="hotel">
-		<div class="row">
-			<div class="flex">
-				<h2 id="hotel">Hotel Blocks</h2>
-			</div>
-		</div>
-		<div class="row">
-			<h3><a href="http://www.doubletree.com/">Doubletree</a></h3>
-                <ul>
-                    <li>King or 2 Queens — $159 and $169/night</li>
-                    <li>View map <a href="www.google.com">123 Main St, Madison, WI</a></li>
-                    <li>Book by phone: (555) 381-4000</li>
-                    <li>Mention "Flohrs/Kolich Wedding"</li>
-                    <li><a href="www.google.com">Book online</a></li>
-                </ul>
-        </div>
-        <div class="row">
-            <h3><a href="http://www.doubletree.com/">Hampton Inn and Suites</a></h3>
-                <ul>
-                    <li>King or 2 Queens — $159 and $169/night</li>
-                    <li>View map <a href="www.google.com">123 Main St, Madison, WI</a></li>
-                    <li>Book by phone: (555) 381-4000</li>
-                    <li>Mention "Flohrs/Kolich Wedding"</li>
-                    <li><a href="www.google.com">Book online</a></li>
-                </ul>
-        </div>
-        <div class="row">
-            <h3><a href="http://www.doubletree.com/">Holiday Inn Express</a></h3>
-                <ul>
-                    <li>King or 2 Queens — $159 and $169/night</li>
-                    <li>View map <a href="www.google.com">123 Main St, Madison, WI</a></li>
-                    <li>Book by phone: (555) 381-4000</li>
-                    <li>Mention "Flohrs/Kolich Wedding"</li>
-                    <li><a href="www.google.com">Book online</a></li>
-                </ul>     
-        </div> 
-	</div>
-	<div id="registry">
-		<div class="row">
-			<div class="flex">
-				<h2>Registry</h2>
-			</div>
-			<p>We are so excited to begin our life together and experience all kinds of adventures together - both at home and all around the world!</p>
-			<ul>
-				<li><a href="www.rei.com">Our registery at REI</a></li>
-				<li><a href="www.macys.com">Our registry at Macy's</a></li>
-				<li><a href="www.crateandbarrel.com">Our registry at Crate and Barrel</a></li>
-			</ul>
+</div>
+
+<div class="hotel container-fluid pb-xs-6">
+	<div class="row pb-xs-6">
+		<div class="col">
+			<h2>Hotel Blocks</h2>
 		</div>
 	</div>
+	<div class="row">
+		<div class="col col-md-4 pb-xs-6">
+			<h4><a href="http://www.doubletree.com/">Doubletree</a></h3>
+			<img src="/img/double.jpg" alt="Doubletree Hotel">
+            <ul>
+                <li>King or 2 Queens — $159 and $169/night</li>
+                <li><a href="www.google.com">123 Main St, Madison, WI</a></li>
+                <li>Book by phone: (555) 381-4000</li>
+                <li class="pb-xs-2">Book by 6/17 and mention "Flohrs/Kolich Wedding"</li>
+                <li><a href="www.google.com">Book online</a></li>
+            </ul>
+	    </div>
+	    <div class="col col-md-4 pb-xs-6">
+	        <h4><a href="http://www.doubletree.com/">Hampton Inn and Suites</a></h3>
+	        <img src="/img/hampton.jpg" alt="Hamption Inn">
+            <ul>
+                <li>King or 2 Queens — $159 and $169/night</li>
+                <li><a href="www.google.com">123 Main St, Madison, WI</a></li>
+                <li>Book by phone: (555) 381-4000</li>
+                <li class="pb-xs-2">Book by 6/17 and mention "Flohrs/Kolich Wedding"</li>
+                <li><a href="www.google.com">Book online</a></li>
+            </ul>
+	    </div>
+	    <div class="col col-md-4 pb-xs-6">
+	        <h4><a href="http://www.doubletree.com/">Holiday Inn Express</a></h3>
+	        <img src="/img/holidayinn.jpeg" alt="Holiday Inn">
+	        <ul>
+	            <li>King or 2 Queens — $159 and $169/night</li>
+	            <li><a href="www.google.com">123 Main St, Madison, WI</a></li>
+	            <li>Book by phone: (555) 381-4000</li>
+	            <li class="pb-xs-2">Book by 6/17 and mention "Flohrs/Kolich Wedding"</li>
+	            <li><a href="www.google.com">Book online</a></li>
+	        </ul>     
+	    </div> 
+    </div>
+</div>
 
+<div class="registry container-fluid">
+	<div class="row">
+		<div class="col-xs-12 pb-xs-4">
+			<h2>Registry</h2>
+			<p>We are so excited to begin our life together and share all kinds of new adventures!</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4">
+			<p class="ghost-button"><a href="www.rei.com">Our registery at REI</a></p>
+		</div>
+		<div class="col-md-4">
+			<p class="ghost-button"><a href="www.rei.com">Our registery at Macy's</a></p>
+		</div>
+		<div class="col-md-4">
+			<p class="ghost-button"><a href="www.rei.com">Our registery at Crate and Barrel</a></p>
+		</div>
+	</div>
+</div>
 
-
-
-
-
-
+<div class="activities container-fluid">
+	<div class="row">
+		<div class="col-xs-12 pb-xs-4">
+			<h2>Activities</h2>
+			<p>Madison is a vibrant city full of things to do!</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="fun-item col-sm-4 col-md-3 col-lg-2">
+			<div class="fun-circ fun-sail"></div>
+			<div class="fun-name">Sailing</a></div>
+			<div class="fun-desc">We have the best sailing!</div>
+			<div class="fun-map"><a href="https://maps.google.com">Directions</a></div>
+		</div>
+		<div class="fun-item col-sm-4 col-md-3 col-lg-2">
+			<div class="fun-circ fun-sail"></div>
+			<div class="fun-name">Sailing</a></div>
+			<div class="fun-desc">We have the best sailing!</div>
+			<div class="fun-map"><a href="https://maps.google.com">Directions</a></div>
+		</div>
+		<div class="fun-item col-sm-4 col-md-3 col-lg-2">
+			<div class="fun-circ fun-sail"></div>
+			<div class="fun-name">Sailing</a></div>
+			<div class="fun-desc">We have the best sailing!</div>
+			<div class="fun-map"><a href="https://maps.google.com">Directions</a></div>
+		</div>
+		<div class="fun-item col-sm-4 col-md-3 col-lg-2">
+			<div class="fun-circ fun-sail"></div>
+			<div class="fun-name">Sailing</a></div>
+			<div class="fun-desc">We have the best sailing!</div>
+			<div class="fun-map"><a href="https://maps.google.com">Directions</a></div>
+		</div>
+		<div class="fun-item col-sm-4 col-md-3 col-lg-2">
+			<div class="fun-circ fun-sail"></div>
+			<div class="fun-name">Sailing</a></div>
+			<div class="fun-desc">We have the best sailing!</div>
+			<div class="fun-map"><a href="https://maps.google.com">Directions</a></div>
+		</div>
+		<div class="fun-item col-sm-4 col-md-3 col-lg-2">
+			<div class="fun-circ fun-sail"></div>
+			<div class="fun-name">Sailing</a></div>
+			<div class="fun-desc">We have the best sailing!</div>
+			<div class="fun-map"><a href="https://maps.google.com">Directions</a></div>
+		</div>
+		<div class="fun-item col-sm-4 col-md-3 col-lg-2">
+			<div class="fun-circ fun-sail"></div>
+			<div class="fun-name">Sailing</a></div>
+			<div class="fun-desc">We have the best sailing!</div>
+			<div class="fun-map"><a href="https://maps.google.com">Directions</a></div>
+		</div>
+		<div class="fun-item col-sm-4 col-md-3 col-lg-2">
+			<div class="fun-circ fun-sail"></div>
+			<div class="fun-name">Sailing</a></div>
+			<div class="fun-desc">We have the best sailing!</div>
+			<div class="fun-map"><a href="https://maps.google.com">Directions</a></div>
+		</div>
+	</div>
+</div>
 
 
 
